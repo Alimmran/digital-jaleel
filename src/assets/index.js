@@ -4,20 +4,20 @@ import close from "./close.svg";
 import bing from "./tech/Bing.png";
 import canva from "./tech/canva.png";
 import chatGpt from "./tech/chat-gpt.png";
-import facebook from "./tech/facebook.png";
+// import facebook from "./tech/facebook.png";
 import googleAds from "./tech/google-ads.png";
 import googleAnalytics from "./tech/google-analytics.png";
 import googleTagManager from "./tech/google-tag-manager.png";
-import instagram from "./tech/Instagram.png";
+// import instagram from "./tech/Instagram.png";
 import jira from "./tech/jira.png";
 import linkedin from "./tech/linkedin.png";
 import magento from "./tech/magento.png";
 import mailchimp from "./tech/mailchimp.png";
-import pinterest from "./tech/pinterest.png";
+// import pinterest from "./tech/pinterest.png";
 import slack from './tech/slack.png'
 import wordpress from './tech/wordpress.png'
-import x from './tech/x.png'
-import youtube from './tech/youtube.png'
+// import x from './tech/x.png'
+// import youtube from './tech/youtube.png'
 import meta from "./tech/meta.png";
 import shopify from "./tech/shopify.png";
 import seo from "./tech/SEO.png"
@@ -60,20 +60,20 @@ export {
   bing,
   canva,
   chatGpt,
-  facebook,
+  // facebook,
   googleAds,
   googleAnalytics,
   googleTagManager,
-  instagram,
+  // instagram,
   jira,
   slack,
   linkedin,
   magento,
   mailchimp,
-  pinterest,
+  // pinterest,
   wordpress,
-  x,
-  youtube,
+  // x,
+  // youtube,
   meta,
   shopify,
  

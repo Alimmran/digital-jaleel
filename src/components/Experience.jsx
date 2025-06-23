@@ -14,6 +14,7 @@ import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
+    
     <VerticalTimelineElement
       contentStyle={{
         background: "#1d1836",
@@ -27,7 +28,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
+            className="w-[80%] h-[80%] object-contain"
           />
         </div>
       }>
@@ -56,13 +57,18 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
-        </h2>
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, amount: 0.25 }}>
+        <motion.div variants={textVariant(0)}>
+          <p className={`${styles.sectionSubText} text-center`}>
+            What I have done so far
+          </p>
+          <h2 className={`${styles.sectionHeadText} text-center`}>
+            Work Experience.
+          </h2>
+        </motion.div>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

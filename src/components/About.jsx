@@ -1,6 +1,6 @@
 import React from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -54,6 +54,11 @@ const About = () => {
         step of the way. Let’s work together to elevate your online presence and
         turn your goals into measurable success.
       </motion.p>
+      <h1
+        className={styles.sectionHeadText}
+        style={{ color: "white", marginTop: "40px", fontSize: "40px" }}>
+        strategies For Your Brand growth
+      </h1>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
